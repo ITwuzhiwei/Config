@@ -17,3 +17,5 @@ return array(
 		'password'=>'password'  
 	)  
 );
+**下载安装后有demo，demo所在位置：vendor/lipowei/config/demo 将demo当是一个项目拉出来运行测试即可**  
+**demo 有 new 和 静态 的各种用法示例**
