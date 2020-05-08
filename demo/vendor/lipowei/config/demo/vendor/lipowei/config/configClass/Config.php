@@ -132,16 +132,14 @@
             $topConfig = !empty(Data::$data[self::$path])?Data::$data[self::$path]:Data::$data[self::$path] = [];
             
             foreach($paramArr as $value){
-                if($value != '*') {
-                    if (!isset($topConfig[$value])) {
+                if(!isset($topConfig[$value])){
+                    return false;
+                }else{
+                    if($topConfig[$value] === ''){
                         return false;
-                    } else {
-                        if ($topConfig[$value] === '') {
-                            return false;
-                        }
                     }
-                    $topConfig = $topConfig[$value];
                 }
+                $topConfig = $topConfig[$value];
             }
             return $topConfig;
             
