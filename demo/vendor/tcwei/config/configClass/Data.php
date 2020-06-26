@@ -1,6 +1,6 @@
 <?php
 
-    namespace lipowei\configClass;
+    namespace tcwei\configClass;
     
     class Data{
         public static $data = array();

@@ -1,6 +1,6 @@
 <?php
    
-    namespace lipowei\configClass;
+    namespace tcwei\configClass;
     /**
      * 获取配置类
      */

@@ -1,6 +1,6 @@
 [
     {
-        "name": "lipowei/config",
+        "name": "tcwei/config",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "source": {
@@ -25,7 +25,7 @@
         "installation-source": "source",
         "autoload": {
             "psr-4": {
-                "lipowei\\configClass\\": "configClass/"
+                "tcwei\\configClass\\": "configClass/"
             }
         },
         "notification-url": "https://packagist.org/downloads/",

@@ -7,16 +7,16 @@ namespace Composer\Autoload;
 class ComposerStaticInit4255850f7c7531dad7b78c8e82c9169b
 {
     public static $prefixLengthsPsr4 = array (
-        'l' => 
+        't' =>
         array (
-            'lipowei\\configClass\\' => 20,
+            'tcwei\\configClass\\' => 20,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'lipowei\\configClass\\' => 
+        'tcwei\\configClass\\' =>
         array (
-            0 => __DIR__ . '/..' . '/lipowei/config/configClass',
+            0 => __DIR__ . '/..' . '/tcwei/config/configClass',
         ),
     );
 

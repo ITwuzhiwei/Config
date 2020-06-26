@@ -7,7 +7,7 @@
     "content-hash": "7fb075a1cda4452cf73cb290928f87ba",
     "packages": [
         {
-            "name": "lipowei/config",
+            "name": "tcwei/config",
             "version": "dev-master",
             "source": {
                 "type": "git",
@@ -29,7 +29,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "lipowei\\configClass\\": "configClass/"
+                    "tcwei\\configClass\\": "configClass/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -50,7 +50,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "lipowei/config": 20
+        "tcwei/config": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

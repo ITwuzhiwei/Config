@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'lipowei\\configClass\\' => array($vendorDir . '/lipowei/config/configClass'),
+    'tcwei\\configClass\\' => array($vendorDir . '/tcwei/config/configClass'),
 );

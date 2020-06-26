@@ -1,12 +1,12 @@
 {
-    "name": "lipowei/config",
+    "name": "tcwei/config",
     "description": "配置类，实现读取任意配置目录下的配置，支持多级获取",
     "type": "library",
     "license": "MIT",
-    "version": "1.3",
+    "version": "v2.0",
     "autoload": {
         "psr-4": {
-            "lipowei\\configClass\\": "configClass/"
+            "tcwei\\configClass\\": "configClass/"
         }
     },
     "authors": [

@@ -1,7 +1,7 @@
 <?php
 
     include "vendor/autoload.php";
-    use lipowei\configClass\Config;
+    use tcwei\configClass\Config;
  
     echo "<meta charset='utf-8'/>";
     echo '<h1>默认目录 config 下的配置</h1>';
